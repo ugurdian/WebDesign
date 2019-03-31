@@ -1,27 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Diseño web Udemy</title>
-</head>
-<body>
-	<header>
-		<h1>Introducción al Diseño Web</h1>
-		<nav>
-			<ul>
-				<li>Inicio</li>
-				<li>Proyectos</li>
-				<li>Acerca de</li>
-			</ul>
-		</nav>
-	</header>
-	<section>
-		<article>
-			
-		</article>
-	</section>
-	<footer>
-		
-	</footer>
-</body>
+<html lang="zxx">
+	<head>
+		<meta charset="UTF-8">
+		<title>Diseño web Udemy</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/sintaxis.css">	
+		<script src="scripts/modernizr-custom.js"></script>
+	</head>
+	<body>
+		<header>
+			<hgroup>
+				<h1>Introducción al Diseño Web</h1>
+				<h2>Curso impartido en Udemy</h2>
+			</hgroup>
+			<nav id="menu1">
+				<ul>
+					<li><a href="http://udemy.com">Inicio</a></li>
+					<li><a target="_blank" href="http://udemy.com">Cursos Udemy en otra pestaña</a></li>
+					<li><a href="#ejemplo">Sección de demostración</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<h2>Navegación secundaria</h2>
+			<nav id="menu2"> <!-- Menú de navegación secundario -->
+				<ol>
+					<li><a href="#youtube">Video Youtube</a></li>
+					<li><a href="#fotouriel">Imagen</a></li>
+					<li><a href="#videosolo">Video Local</a></li>				
+				</ol>
+			</nav>
+			<article>
+				<h2>Párrafos lorem ipsum</h2>
+				<p>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate <span>this particular frazo estos lineal y se integrará with the whole teksto</span> velit <strong>esse cillum dolore eu fugiat nulla pariatur</strong>. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</p>			
+				<p>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <em>We make emphazis on this text</em>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</p>
+				<h3>Formulario de envío de datos</h3>
+				<form id="form" name="form" method="post" action="suscribe.php" >
+					<input type="text" id="name" name="name" placeholder="Tu nombre">
+					<input type="submit" id="submit" name="submit" value="Enviar">
+				</form>
+				<p>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</p>
+				<p>
+					"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+				</p>
+			</article>
+		</section>
+
+		<section id="ejemplo">
+			<h2>Sección de demostración</h2>
+			<p>Objetivo!! Demostración de enlace interno en la misma página web</p>
+			<div id="youtube">
+				<h3>Despegue en Caravan</h3>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/ieBIzB7_xoI" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<figure>
+				<h3>Avión monomotor</h3>
+				<img id="fotouriel" src="media/cessna.jpeg" alt="avion de entrenamiento">
+				<figcaption>
+					Aeronave: Cessna 150 CP3073
+				</figcaption>			
+			</figure>
+			<h3>Primer vuelo solo</h3>
+			<video id="videosolo" src="media/solo.mp4" controls="controls"></video>
+			<a href="#menu2">Volver al menú</a>
+		</section>	
+		<footer style="background: grey">
+			Powered by HTML5
+		</footer>
+	</body>
 </html>

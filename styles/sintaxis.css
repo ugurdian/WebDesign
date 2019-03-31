@@ -1,0 +1,33 @@
+/*elemento {
+	propiedad:valor;
+}
+*/
+
+body {
+	background: ;
+}
+header {
+	background: lightblue;
+	width: 100%;
+}
+header h2 {
+	color: brown
+}
+h1 {
+	color: brown;
+}
+h2 {
+	color: indigo;
+}
+nav {
+	background: teal;
+	margin: 10px;
+}
+img {
+	height: 300px;
+	width: 500px;
+}
+video {
+	height: 300px;
+	width: 500px;
+}
