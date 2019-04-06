@@ -2,32 +2,58 @@
 	propiedad:valor;
 }
 */
-
-body {
-	background: ;
-}
 header {
 	background: lightblue;
 	width: 100%;
 }
-header h2 {
+header h2, h1 {
 	color: brown
-}
-h1 {
-	color: brown;
 }
 h2 {
 	color: indigo;
 }
 nav {
 	background: teal;
-	margin: 10px;
+	margin: 20px;
 }
-img {
+h3 {
+	color: green;
+}
+img, video {
 	height: 300px;
 	width: 500px;
 }
-video {
-	height: 300px;
-	width: 500px;
+article p {
+	color: red;
+}
+p#azul {
+	color: blue;
+}
+.grande {
+	font-size: 20px;
+}
+/*
+Selectores adyacentes
+Hace referencia a un elemento que tenga otro del mismo tipo
+previamente y en el mismo nivel (Hermanos)
+Cambia todos los elementos excepto el primero
+*/
+p+p {
+	font-weight: bolder;
+}
+/*
+Selector Padre > Hijo
+Cambia los elementos "hijos" los contenidos dentro de un padre.
+*/
+div > p {
+	color: indigo;
+	font-style: italic;
+}
+/*
+Selector de hermanos
+Todos los elementos que sean hermanos de otros, no importa dónde 
+estén
+*/
+p ~ p {
+
 }
