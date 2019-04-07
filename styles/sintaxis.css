@@ -13,7 +13,7 @@ h2 {
 	color: indigo;
 }
 nav {
-	background: teal;
+	background: rgb(24, 138, 204);
 	margin: 20px;
 }
 h3 {
@@ -24,7 +24,7 @@ img, video {
 	width: 500px;
 }
 article p {
-	color: red;
+	color: rgb(163, 9, 9);
 }
 p#azul {
 	color: blue;
@@ -54,6 +54,6 @@ Selector de hermanos
 Todos los elementos que sean hermanos de otros, no importa dónde 
 estén
 */
-p ~ p {
+/* p ~ p {
 
-}
+} */
