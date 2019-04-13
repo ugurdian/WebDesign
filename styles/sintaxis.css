@@ -1,5 +1,6 @@
-/*elemento {
-	propiedad:valor;
+/*
+elemento {
+	propiedad: valor;
 }
 */
 header {
@@ -7,10 +8,19 @@ header {
 	width: 100%;
 }
 header h2, h1 {
-	color: brown
+	color: brown;
 }
 h2 {
 	color: indigo;
+}
+/*
+Selector de atributos
+elemento[atributo="valor"] {
+	propiedad: valor;
+}
+*/
+h2[title="main"] {
+	color: crimson;
 }
 nav {
 	background: rgb(24, 138, 204);
