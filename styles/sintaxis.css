@@ -29,16 +29,22 @@ nav {
 h3 {
 	color: green;
 }
+/* Varios elementos con los mismos atributos
+separados por coma */
 img, video {
 	height: 300px;
 	width: 500px;
 }
+/* Ruta interna, ej: un párrafo dentro de un
+artículo */
 article p {
 	color: rgb(163, 9, 9);
 }
+/* Selector de identificador */
 p#azul {
 	color: blue;
 }
+/* Selector de clase  */
 .grande {
 	font-size: 20px;
 }
