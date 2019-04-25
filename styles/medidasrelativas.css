@@ -1,11 +1,23 @@
 body {
-    font-size: 16px;
+    font-size: 20px;
 }
 h1 {
     color: firebrick;
 }
 h2 {
     color: rgb(44, 10, 168);
+}
+/* Medidas porcentuales */
+div.fija{
+    height: 100px;
+    width: 100px;
+    background: red;
+}
+div.porcentual {
+    height: 100px;
+    width: 50%;
+    background: #14a528;
+    margin: 5%;
 }
 /* Medidas absolutas */
 p.in {
@@ -34,9 +46,9 @@ p.ex {
 p.px {
     font-size: 25px;
 }
-div p{
-    font-size: 3em;
+p{
+    font-size: 2em;
 }
-div p.rem {
-    font-size: 3rem;
+p.rem {
+    font-size: 2rem;
 }
