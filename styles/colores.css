@@ -8,6 +8,17 @@ div {
 .reservadas {
     background: lime;
 }
-#golden {
-    background: goldenrod;
+.luzRGB {
+    background: rgb(210, 105, 30);
+}
+/* Para escribir en Hexadecimal es necesario utilizar el símbolo 
+numeral y los números en dos dígitos. */
+.hex {
+    background: #FF5030;
+}
+.porcentual {
+    background: rgb(50%,20%,150%);
+}
+footer {
+    background: grey;
 }
