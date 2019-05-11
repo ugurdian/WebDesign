@@ -1,8 +1,14 @@
+body {
+    background: hsl(200, 67%, 34%);
+    color: aliceblue;
+}
+
 div {
     width: 100px;
     height: 100px;
     border: 1px solid black;
     margin: 20px;
+    
 }
 
 .reservadas {
@@ -19,6 +25,15 @@ numeral y los números en dos dígitos. */
 .porcentual {
     background: rgb(50%,20%,150%);
 }
+.hsl {
+    background: hsl(240, 88%, 48%);
+}
+.RGB_alfa {
+    background: rgba(255, 200, 001, 0.5);
+}
+.HSL_alfa {
+    background: hsla(150, 50%, 78%, 0.7);
+}
 footer {
-    background: grey;
+    background: grey;    
 }

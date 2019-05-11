@@ -1,0 +1,28 @@
+div {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 20px;
+}
+p {
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+section {
+    border: 1px solid green;
+    padding: 10px;
+    margin: 10px;
+}
+article {
+    border: 1px solid blueviolet;
+    padding: 10px;
+}
+aside {
+    border: 1px solid orange;
+    padding: 10px;
+}
+a {
+    border: 1px solid blue;
+    padding: 20px;
+}
