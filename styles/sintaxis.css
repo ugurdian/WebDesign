@@ -4,11 +4,11 @@ elemento {
 }
 */
 header {
-	background: lightblue;
+	background: rgb(37, 56, 161);
 	width: 100%;
 }
 header h2, h1 {
-	color: brown;
+	color: white;
 }
 h2 {
 	color: indigo;
@@ -20,11 +20,17 @@ elemento[atributo="valor"] {
 }
 */
 h2[title="main"] {
-	color: crimson;
+	color: whitesmoke;
 }
 nav {
-	background: rgb(24, 138, 204);
+	background: rgb(81, 172, 233);
 	margin: 20px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+li {
+	display: inline-block;
+	border: 1px solid red;
 }
 h3 {
 	color: green;
@@ -59,7 +65,7 @@ p+p {
 }
 /*
 Selector Padre > Hijo
-Cambia los elementos "hijos" los contenidos dentro de un padre.
+Cambia los elementos "hijos" contenidos dentro de un padre.
 */
 div > p {
 	color: indigo;
